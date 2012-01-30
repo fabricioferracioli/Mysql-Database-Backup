@@ -1,0 +1,5 @@
+This is a Shell Script that creates a mysql database backup.
+Two files will be generated after the script, one in pure text and another gziped.
+You need to edit the script with the server information to work properly.
+Files older than 30 days are removed by the script.
+I suggest to use the script as a cron job.
