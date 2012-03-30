@@ -15,5 +15,5 @@ tar -czf $BKP_FILE_GZ $BKP_FILE
 
 #delete files older than 30 days
 for f in $( find ~/backup/* -mtime +30 ); do
-    rm f
+    rm $f
 done
